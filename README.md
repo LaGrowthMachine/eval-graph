@@ -8,7 +8,14 @@ Une seule chose: Chez Lgm on est sensible à la qualité.
 - Une commande pour build
 - Fais ce que tu estimes nécessaire pour montrer tes talents d'artiste
 - Tu mets tout sur une repo **PRIVÉE** et tu partages la repo avec @tchangang et @yerowell
-
+- Fais un fichier .ts par question et log dans la console le résultat final.
+```javascript
+   - question1.ts
+   - question2.ts
+   - question3.ts
+   - question4.ts
+...etc...
+```
 ## Exercice 1
 
 Considérons l'objet suivant:
