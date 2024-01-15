@@ -141,7 +141,7 @@ Si vous deviez identifier cette séquence sous la forme d'un string de manière 
 - On suppose que tous les utilisateurs ont le même nombre de documents 1, documents 2 et documents 3 à valider: 300 documents de chaque type.
 - Tu n'as aucune limite sur les technos.
 
-NB: Ta seule contrainte c'est que chaque utilisateur puisse valider 300 documents de chaque type et que 
+NB: Ta seule contrainte c'est que chaque utilisateur puisse valider 300 documents de chaque type et qu'à chaque instant t, on puisse savoir ce qu'il y a dans chaque queue.
 ### Question 1
 Imagine un système pour gérer 100 utilisateurs.
 
