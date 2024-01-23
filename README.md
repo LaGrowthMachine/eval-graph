@@ -8,6 +8,7 @@ Une seule chose: Chez Lgm on est sensible à la qualité.
 - Une commande pour build
 - Fais ce que tu estimes nécessaire pour montrer tes talents d'artiste
 - Tu mets tout sur une repo **PRIVÉE** et tu partages la repo avec @tchangang et @yerowell
+- Si tu ne comprends pas une question, pose nous une question !#inception
 - Fais un fichier .ts par question et log dans la console le résultat final.
 ```javascript
    - question1.ts
@@ -130,6 +131,7 @@ A partir de START, jusqu'où peut-on aller ?
 Si vous deviez identifier cette séquence sous la forme d'un string de manière à ce que le résultat ne correspondent qu'à cette séquence, quel format choisirez-vous ?
 
 ## Exercice bonus
+NB: Pas de dev à faire, cet exercie a pour objectif d'évaluer tes capacités à structurer ta réflexion sur un problème d'architecture.
 
 - Tu dois monter une application de validation de document.
 - Tu as X utilisateurs.
