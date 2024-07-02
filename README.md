@@ -17,9 +17,8 @@ Une seule chose: Chez Lgm on est sensible à la qualité.
    - question4.ts
 ...etc...
 ```
-## Exercice 1
-
 Considérons l'objet suivant:
+
 ```javascript
 const items = {
     'START': {
@@ -130,28 +129,3 @@ A partir de START, jusqu'où peut-on aller ?
 
 Si vous deviez identifier cette séquence sous la forme d'un string de manière à ce que le résultat ne correspondent qu'à cette séquence, quel format choisirez-vous ?
 
-## Exercice bonus
-NB: Pas de dev à faire, cet exercie a pour objectif d'évaluer tes capacités à structurer ta réflexion sur un problème d'architecture.
-
-- Tu dois monter une application de validation de document.
-- Tu as X utilisateurs.
-- Chaque utilisateur a 3 types (document 1, document 2, document 3) de documents à valider.
-- Pour valider un document, il faut faire un call api.
-- Une validation dure entre 30 secondes et 1 minute.
-- La validation ne peut se dérouler qu'entre 08h et 17h
-- Les validations de document sont indépendantes mais pour chaque queue est une FIFO (l'ordre de validation des documents 1 doit préservé, l'ordre 2 doit être préservé, l'ordre 3 préservé).
-- On suppose que tous les utilisateurs ont le même nombre de documents 1, documents 2 et documents 3 à valider: 300 documents de chaque type.
-- Tu n'as aucune limite sur les technos.
-
-NB: Ta seule contrainte c'est que chaque utilisateur puisse valider 300 documents de chaque type et qu'à chaque instant t, on puisse savoir ce qu'il y a dans chaque queue.
-### Question 1
-Imagine un système pour gérer 100 utilisateurs.
-
-### Question 2
-On est passé à 1000 utilisateurs. Est-ce que ton système tient ? Qu'est-ce que tu changes (rien peut être) ? 
-
-### Question 3
-On est passé à 10 000 utilisateurs. Est-ce que ton système tient ? Qu'est-ce que tu changes (rien peut être) ? 
-
-### Question 4
-Tu veux monitorer ce que tu as mis en place pour t'assurer que chaque user a la même chance de réaliser 300 jobs (même s'il n'a pas 300 jobs à faire). Quel indicateur proposes-tu ?
